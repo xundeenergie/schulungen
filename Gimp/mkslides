@@ -1,0 +1,11 @@
+#!/bin/sh
+
+IN="$1"
+OUTHTML="${1%.md}.html"
+OUTPDF="${1%.md}.pdf"
+
+echo $IN $OUT
+
+#/usr/bin/pandoc --section-divs -t revealjs -s --template template.revealjs -o "$OUT" "$IN" --standalone
+/usr/bin/pandoc --section-divs -t revealjs --template revealjs.html "${IN}" -o "${OUTHTML}" --variable theme=black --variable transition="linear"
+/usr/bin/pandoc -t latex "${IN}" -o "${OUTPDF}" -s -V geometry:"margin=1in, landscape"

@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Gimp Tutorial</title>
+
+<meta name="description" content="Gimp Tutorial">    
+
+  <meta name="author" content="Jakobus Schürz" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+
+<!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+  document.write( '<link rel="stylesheet" href="css/print/' +
+    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + 
+    '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+<h1>Gimp Tutorial</h1>
+<h3>Jakobus Schürz</h3>
+<p>
+<h4>Jänner 2017</h4>
+</p>
+</section>  
+
+
+<section id="arbeitsaufgabe" class="slide level1">
+<h1>Arbeitsaufgabe</h1>
+<p>vorher<img src="Beispielbilder/Potdsam_Haus.jpg" title="vorher" alt="Ausgangsbild" rwidth="5cm" width="300" /> nachher<img src="images/Text-Ergebnis.jpg" title="nachher" alt="Ergebnis" rwidth="5cm" width="300" /></p>
+</section>
+<section id="toolbox" class="slide level1">
+<h1>Toolbox</h1>
+<figure>
+<img src="images/Toolbox.png" title="Toolbox Gimp" alt="Toolbox" /><figcaption>Toolbox</figcaption>
+</figure>
+</section>
+<section id="öffnenerstellen" class="slide level1">
+<h1>Öffnen/Erstellen</h1>
+<section id="section" class="level2">
+<h2></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">A</th>
+<th style="text-align: left;">B</th>
+<th style="text-align: right;">C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Daslsöldkf</td>
+<td style="text-align: left;">E</td>
+<td style="text-align: right;">Fadsf</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Gsdlk jdaslf</td>
+<td style="text-align: left;">Hsafj</td>
+<td style="text-align: right;">I</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Öffnen einer Bilddatei (<em>.jpg, </em>.png, *.tiff,...)</li>
+<li>Importieren (<em>.pdf, </em>.ps, *.psd,...)</li>
+<li>Screenshot</li>
+</ul>
+</section>
+<section id="section-1" class="level2">
+<h2></h2>
+<p>Gimp ist ein Programm für Rastergrafik. Das Bild besteht aus einzelnen Bildpunkten.</p>
+<p>Vectorgraphiken (<em>.svg), PDF, </em>.eps, Photoshop (*.psd) werden beim Importieren in der angegebenen Auflösung &quot;gerastert&quot;</p>
+</section>
+<section id="section-2" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Import-PDF.jpg" title="Import PDF" alt="Import PDF" rheight="7cm" height="350" /><figcaption>Import PDF</figcaption>
+</figure>
+</section>
+<section id="section-3" class="level2">
+<h2></h2>
+<ul>
+<li>Auflösung wählen (zum Drucken mindestens 300dpi = Pixel pro Inch)</li>
+<li>Größe wählen</li>
+<li>Die zu importierenden Seiten anklicken</li>
+<li>Import als Ebenen in einem Bild oder</li>
+<li>Import als Einzelbilder</li>
+</ul>
+</section>
+</section>
+<section id="perspektive" class="slide level1">
+<h1>Perspektive</h1>
+<section id="section-4" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Toolbox-Perspektive.jpg" title="Perspektive" alt="Aufnahmen von Häuser &quot;gerade&quot; richten" rheight="7cm" height="300" /><figcaption>Aufnahmen von Häuser &quot;gerade&quot; richten</figcaption>
+</figure>
+</section>
+<section id="section-5" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Perspektive.jpg" title="Perspektive" rheight="7cm" height="300" />
+</figure>
+<p>Das Haus am Raster mit der Maus &quot;zurechtschieben&quot; Abschließen mit &quot;Enter&quot; oder &quot;Transformation&quot;</p>
+</section>
+</section>
+<section id="ebenenleinwand" class="slide level1">
+<h1>Ebenen/Leinwand</h1>
+<section id="section-6" class="level2">
+<h2></h2>
+<ul>
+<li>Metapher &quot;Overheadprojektor&quot;</li>
+<li>Leinwand ist wie die beleuchtete Glasfläche</li>
+<li>Ebenen sind wie Folien(schnipsel) darauf</li>
+</ul>
+</section>
+<section id="section-7" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Leinwand-an-Ebene.jpg" title="Perpsektive" alt="Leinwand an Ebene anpassen" rheight="7cm" height="300" /><figcaption>Leinwand an Ebene anpassen</figcaption>
+</figure>
+</section>
+<section id="section-8" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Leinwand-an-Ebene-Ergebnis.jpg" title="Perspektive Ergebnis" alt="Ergebnis" rheight="7cm" height="300" /><figcaption>Ergebnis</figcaption>
+</figure>
+</section>
+</section>
+<section id="zuschneiden" class="slide level1">
+<h1>Zuschneiden</h1>
+<section id="section-9" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Bild-auf-Auswahl-zoom.jpg" title="Zuschneiden" alt="Zuschneiden - Bereich markieren" rheight="7cm" height="420" /><figcaption>Zuschneiden - Bereich markieren</figcaption>
+</figure>
+</section>
+<section id="section-10" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Bild-auf-Auswahl-Ergebnis-zoom.jpg" title="Zuschneiden" alt="Zuschneiden - Ergebnis" rheight="7cm" height="400" /><figcaption>Zuschneiden - Ergebnis</figcaption>
+</figure>
+</section>
+</section>
+<section id="klonen-heilen" class="slide level1">
+<h1>Klonen / Heilen</h1>
+<section id="section-11" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Toolbox-Klonen.jpg" title="Klonen" alt="Klonen=Stempel - Heilen=Heftpflaster" rheight="4cm" height="150" /><figcaption>Klonen=Stempel - Heilen=Heftpflaster</figcaption>
+</figure>
+<ul>
+<li>Heilen ist wie Klonen, nur ist ein weicherer Überlagerungseffekt wirksam.</li>
+<li>Klonen z.B. bei Gebäuden</li>
+<li>Heilen um Falten/Pickel in Gesichtern zu entfernen</li>
+</ul>
+</section>
+<section id="section-12" class="level2">
+<h2></h2>
+<ul>
+<li>Beim Klonen (Stempelsymbol) oder Heilen (Heftpflastersymbol) die Form des Stempels festlegen/einrichten.</li>
+<li>Mit <Strg>+linker Mausklick die originale Position (von der aus geklont werden soll) festlegen.</li>
+<li>Mit linkem Mausklick am Ziel das Original einfügen (durch ziehen mit gedrückter Maustaste wird der Bereich vergrößert)</li>
+</ul>
+</section>
+<section id="section-13" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Klonen-1-zoom.jpg" title="Klonen" alt="Klonen - Auto links unten entfernen" rheight="7cm" height="350" /><figcaption>Klonen - Auto links unten entfernen</figcaption>
+</figure>
+</section>
+<section id="section-14" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Klonen-2-zoom.jpg" title="Klonen" alt="Klonen - Mauer und Straße ergänzen" rheight="7cm" height="350" /><figcaption>Klonen - Mauer und Straße ergänzen</figcaption>
+</figure>
+</section>
+<section id="section-15" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Klonen-3-zoom.jpg" title="Klonen" alt="Klonen - Himmel vervollständigen" rheight="7cm" height="350" /><figcaption>Klonen - Himmel vervollständigen</figcaption>
+</figure>
+</section>
+<section id="section-16" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Klonen-Ergebnis.jpg" title="Klonen" rheight="7cm" height="450" />
+</figure>
+</section>
+</section>
+<section id="markieren" class="slide level1">
+<h1>Markieren</h1>
+<section id="section-17" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Toolbox-Auswahl.jpg" title="Auswahlwerkzeuge" alt="Auswahlwerkzeuge" /><figcaption>Auswahlwerkzeuge</figcaption>
+</figure>
+</section>
+<section id="section-18" class="level2">
+<h2></h2>
+<ul>
+<li>Mit der linken Maustaste markieren</li>
+<li>Markierung erweitern: <Shift> + linke Maustaste</li>
+<li>Zusammenhängende Bereiche mit dem Zauberstab</li>
+<li>Nach Farbe markieren - alle Bereiche der selben Farbe</li>
+</ul>
+</section>
+<section id="section-19" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Auswahl-1.jpg" title="Zauberstab" alt="Zauberstab - mit Mausklick ausgewählt" rheight="7cm" height="400" /><figcaption>Zauberstab - mit Mausklick ausgewählt</figcaption>
+</figure>
+</section>
+<section id="section-20" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Auswahl-2.jpg" title="Zauberstab erweitert" rheight="7cm" height="400" />
+</figure>
+<p>Markierung ergänzen mit &lt;Strg&gt; + Mausklick</p>
+</section>
+<section id="section-21" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Auswahl-3.jpg" title="Himmel ausgewählt" alt="Himmel ausgewählt" rheight="7cm" height="400" /><figcaption>Himmel ausgewählt</figcaption>
+</figure>
+</section>
+<section id="section-22" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Auswahl-4.jpg" title="Fenster und Tür mit Schlinge" alt="Fenster und Tür mit Schlinge" rheight="7cm" height="400" /><figcaption>Fenster und Tür mit Schlinge</figcaption>
+</figure>
+</section>
+<section id="section-23" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Auswahl-5.jpg" title="Auswahl invertiert = Mauerwerk ausgewählt" alt="Auswahl invertiert = Mauerwerk ausgewählt" rheight="7cm" height="400" /><figcaption>Auswahl invertiert = Mauerwerk ausgewählt</figcaption>
+</figure>
+</section>
+</section>
+<section id="ebenen" class="slide level1">
+<h1>Ebenen</h1>
+<section id="section-24" class="level2">
+<h2></h2>
+<p><img src="images/Neue-Ebene-Transparent.jpg" title="Ebene einfügen" alt="Neue Ebene einfügen" rheight="7cm" height="300" /> <img src="images/Ebenen-zoom.jpg" title="Ebenen" alt="Ebenen-Werkzeugbox" rheight="7cm" height="300" /></p>
+<ul>
+<li>Auge: Ebene ist sichtbar</li>
+<li>Kette: Ebene ist gegen veränderung geschützt</li>
+</ul>
+</section>
+</section>
+<section id="farbänderung" class="slide level1">
+<h1>Farbänderung</h1>
+<section id="section-25" class="level2">
+<h2></h2>
+<p><img src="images/Toolbox-Farbauswahl.jpg" title="Farbauswahl" alt="Farbauswahl in Toolbox" rheight="7cm" height="300" /> <img src="images/Farbwaehler.jpg" title="Farbauswahl" alt="Farbwähler" rheight="7cm" height="300" /></p>
+</section>
+<section id="section-26" class="level2">
+<h2></h2>
+<ul>
+<li>Ebene auswählen, auf der die Einfärbung passieren soll</li>
+<li>Einfärbung findet nur innerhalb der aktuellen Auswahl statt</li>
+<li>Mit linker Maustaste aus Farbwahl in das Bild ziehen füllt die Auswahl</li>
+</ul>
+</section>
+<section id="section-27" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Auswahl-fuellen.jpg" title="Farbänderung" alt="Auswahl füllen" rheight="7cm" height="300" /><figcaption>Auswahl füllen</figcaption>
+</figure>
+</section>
+<section id="section-28" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Ueberlagern.jpg" title="Überlagerung" alt="Überlagerung wählen" rheight="7cm" height="300" /><figcaption>Überlagerung wählen</figcaption>
+</figure>
+</section>
+<section id="section-29" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Ueberlagern-Ergebnis.jpg" title="Überlagerung" alt="Überlagerung % wählen" rheight="7cm" height="300" /><figcaption>Überlagerung % wählen</figcaption>
+</figure>
+</section>
+<section id="section-30" class="level2">
+<h2></h2>
+<p><img src="images/Farbaenderung-Original.jpg" title="Original" alt="Original" rheigth="5cm" height="340" /> <img src="images/Farbaenderung-Ergebnis.jpg" title="Ergebnis" alt="Ergebnis" rheigth="5cm" height="340" /></p>
+</section>
+<section id="section-31" class="level2">
+<h2></h2>
+<p><img src="images/Farbaenderung-Original.jpg" title="Original" rheigth="5cm" height="340" /> <img src="images/Farbaenderung-Ergebnis-weitere.jpg" title="Ergebnis" rheigth="5cm" height="340" /></p>
+<p>Mit Farbauswahl ausgewählt, mit Grün überlagert</p>
+</section>
+</section>
+<section id="text" class="slide level1">
+<h1>Text</h1>
+<section id="section-32" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Toolbox-Text.jpg" title="Text" alt="Toolbox Textwerkzeug" rheight="7cm" height="300" /><figcaption>Toolbox Textwerkzeug</figcaption>
+</figure>
+</section>
+<section id="section-33" class="level2">
+<h2></h2>
+<ul>
+<li>Schriftart (Font)</li>
+<li>Farbe</li>
+<li>Position</li>
+<li>Zeichenabstand</li>
+</ul>
+</section>
+<section id="section-34" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Text-Einfuegen.jpg" title="Text" alt="Text eingefügt" rheight="7cm" height="300" /><figcaption>Text eingefügt</figcaption>
+</figure>
+</section>
+<section id="section-35" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Text-Ergebnis.jpg" title="Text" rheight="7cm" height="350" />
+</figure>
+</section>
+</section>
+<section id="speichern" class="slide level1">
+<h1>Speichern</h1>
+<section id="section-36" class="level2">
+<h2></h2>
+<ul>
+<li>im Menü &quot;Datei&quot;</li>
+<li>&quot;Speichern&quot;/&quot;Speichern unter&quot; nur im Gimp-eigenen Format .xcf</li>
+<li>beim Speichern keine weiteren Angaben notwendig</li>
+<li>xcf kann in der Regel nur von Gimp geöffnet/angezeigt werden</li>
+</ul>
+</section>
+<section id="section-37" class="level2">
+<h2></h2>
+<ul>
+<li>im Menü &quot;Datei&quot;</li>
+<li>&quot;Speichern&quot;/&quot;Speichern unter&quot; nur im Gimp-eigenen Format .xcf</li>
+<li>&quot;Exportieren&quot; in jpg, png, pdf, psd...</li>
+<li>beim Exportieren die Parameter je nach Exportformat wählen!!</li>
+</ul>
+</section>
+<section id="section-38" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Parameter-Speichern-PNG.jpg" title="Exportparameter" alt="Exportieren Parameter" heigth="300py" rheight="5cm" /><figcaption>Exportieren Parameter</figcaption>
+</figure>
+</section>
+</section>
+<section id="weiterführende-hilfe" class="slide level1">
+<h1>Weiterführende Hilfe</h1>
+<section id="section-39" class="level2">
+<h2></h2>
+<p><a href="https://docs.gimp.org/de/" class="uri">https://docs.gimp.org/de/</a></p>
+<p><a href="https://www.youtube.com/user/gimptutorialdeutsch" class="uri">https://www.youtube.com/user/gimptutorialdeutsch</a></p>
+</section>
+</section>
+<section id="videotutorials" class="slide level1">
+<h1>Videotutorials</h1>
+<section id="freistellen-von-objekten" class="level2">
+<h2>Freistellen von Objekten</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/67gt2xlkYN8" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+<section id="freistellen-vor-unruhigem-hintergrund" class="level2">
+<h2>Freistellen vor unruhigem Hintergrund</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MCZyjJ2Ps4Y" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+</section>
+<section id="vielen-dank-für-die-aufmerksamkeit" class="slide level1">
+<h1>Vielen Dank für die Aufmerksamkeit!</h1>
+</section>
+<section id="section-40" class="slide level1">
+<h1></h1>
+<p>erstellt mit</p>
+<ul>
+<li>[Debian GNU/Linux] <a href="http://www.debian.org" class="uri">http://www.debian.org</a></li>
+<li>[Gimp] <a href="https://www.gimp.org/" class="uri">https://www.gimp.org/</a></li>
+<li>[pandoc] <a href="http://pandoc.org/" class="uri">http://pandoc.org/</a></li>
+<li>[reveal.js] <a href="https://github.com/xundeenergie/reveal.js" class="uri">https://github.com/xundeenergie/reveal.js</a></li>
+</ul>
+<p>© 2017 Jakobus Schürz</p>
+</section>
+</div>
+</div>
+<div class="footer">
+	<p>Copyright ©2017 Jakobus Schürz.</p>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'black', 
+  
+  // default/cube/page/concave/zoom/linear/fade/none
+      transition: Reveal.getQueryHash().transition || 'convex',
+  
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+Reveal.configure({  pdfMaxPagesPerSlide: 1,});
+</script>
+
+</body>
+</html>
