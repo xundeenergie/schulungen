@@ -7,7 +7,7 @@ COMMIT = $(shell date "+xe%Y%m%d_%H%M%S")
 
 
 
-all: .list .publish-git 
+all: .publish-git 
 	@#for i in $(FILES);do echo $$i;done
 	@#touch .publish .publish-git
 	
